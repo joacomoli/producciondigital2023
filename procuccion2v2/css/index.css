@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+h3{
+  font-size: 40px;
+}
+
+.subtitulo{
+  color: darkgrey;
+}
+
+.panel-body{
+  background-color: antiquewhite;
+}
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-body{
+  background-color: white;
+}
+.mb-3{
+  background-color: grey;
+  color: red;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.pepe {
+  flex: 30%;
+  background-color: red;
+  padding: 20px;
+}
+
+#uniquebutton{
+  background-color: yellow;
+}
+/* Main column */
+.main {
+  flex: 30%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.frase_celebre{
+  flex: 100%;
+  align-content: center;
+  text-align: center;
+  background-color: #1abc9c;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
